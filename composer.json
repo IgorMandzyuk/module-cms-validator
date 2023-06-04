@@ -1,0 +1,22 @@
+{
+    "name": "im/module-cmsvalidator",
+    "description": "Magento 2 extension which help to validate HTML, CSS and JS",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ihor",
+            "email": "mr.mandzyuk@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Im\\CMSValidator\\": ""
+        }
+    }
+}
